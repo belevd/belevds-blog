@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belevd's blog</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg bg-light sticky-top">
+        <div class="container">
+            <a href="#start" class="navbar-brand">
+                <img src="img/icons/logo.png" alt="Logo" width="60" height="30" class="d-inline-block align-top">
+                Belevd's blog
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerNavbar" aria-controls="headerNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="headerNavbar">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#start" class="nav-link active" aria-current="page">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Обо мне</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Блог</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#portfolio" class="nav-link dropdown-toggle" id="headerNavbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Портфолио
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="headerNavbarDropdown">
+                            <li><a href="#" class="dropdown-item">Все проекты</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><del><a class="dropdown-item disabled" href="#">Сайты</a></del></li>
+                            <li><del><a class="dropdown-item disabled" href="#">Макеты</a></del></li>
+                            <li><del><a class="dropdown-item disabled" href="#">Бизнес-планы</a></del></li>
+                            <li><del><a class="dropdown-item disabled" href="#">Телеграм-боты</a></del></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First screen -->
+    <header>
+        <div class="first-screen">
+            <div class="anchor" id="start"></div>
+            <div class="container">
+                <h1 class="text-center display-3 pt-5 text-nowrap d-none d-md-block">Блог Евгения Белолипецкого</h1>
+                <h2 class="text-center display-3 pt-5 text-wrap d-md-none">Блог Евгения Белолипецкого</h2>
+                <div class="row">
+                    <div class="col-0 col-lg-6 "></div>
+                    <div class="col-12 col-lg-5 col-xl-4">
+                        <blockquote class="blockquote-footer text-center text-lg-right mt-5">Здесь я расскажу вам о своей жизни, карьере и интересах</blockquote>
+                    </div>
+                    <div class="col-0 col-lg-1 col-xl-2"></div>
+                </div>
+                <div class="go-down w-100 d-flex justify-content-center align-items-end">
+                    <!-- <button type="button" class="btn btn-outline-dark">Начнем знакомство</button> -->
+                    <a href="#about" class="arrow mt-5">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- About me -->
+        <div class="about py-3">
+            <div class="anchor" id="about"></div>
+            <div class="container">
+                <h2 class="text-center">Немного обо мне</h2>
+                <hr>
+                <div class="row my-4">
+                    <div class="col-12 col-lg-6 text-center text-lg-left">
+                        <p>Всем привет!</p>
+                        <p>Как все уже поняли меня зовут Евгений, и это мой блог.</p>
+                        <p>Здесь я буду рассказывать вам о том, что проиходит в моей профессиональной (и не только) жизни, а также познакомлю с проектами, которые реализую в данный момент или уже закончил. Эта страница может быть полезна тем, кто хочет со мной сотрудничать или HR-специалисту, когда я буду устраиваться на работу. Те, кто просто хочет последить за моей жизнью - Welcome!</p>
+                        <hr>
+                        <img src="img/photos/my_photo.jpg" class="mx-auto d-block d-lg-none my-photo" alt="Евгений Белолипецкий" width="500">
+                        <hr class="d-lg-none">
+                        <p><b>Основные факты:</b></p>
+                        <ul class="list-unstyled text-left">
+                            <li><b>Возраст:</b> 24 года</li>
+                            <li><b>Высшее образование:</b> Бакалавр менеджемента</li>
+                            <!-- About education -->
+                            <li><b>Прочее образование:</b>
+                                <ul class="pl-5">
+                                    <li>2020-2021: <b>Full-stack web-developer on Python</b>
+                                        <ul class="list-unstyled ml-5 pl-5">
+                                            <li><b>Учебное заведение:</b> Онлайн-школа SkillFactory</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- End education -->
+                            <hr>
+                            <!-- About work -->
+                            <li><b>Опыт работы:</b>
+                                <ul class="pl-5">
+                                    <li>2014-2020: <b>Менеджер по инвестиционным проектам</b>
+                                        <ul class="list-unstyled ml-5 pl-5">
+                                            <li><b>Суть работы:</b></li>
+                                            <li>Разработка бизнес-планов инвестиционных проектов на основании данных заказчиков, с целью подачи их в кредитные организации для получения кредитного финансирования или органы власти для участия в государственных программах или получения налоговых льгот.</li>
+                                        </ul>
+                                    </li>
+                                    <hr>
+                                    <li>2020-н.в.: <b>Инженер-тестировщик</b>
+                                        <ul class="list-unstyled ml-5 pl-5">
+                                            <li><b>Суть работы:</b></li>
+                                            <li>Тестирование web-сервисов и приложений</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- End work -->
+                            <hr>
+                            <li><b>Текущая цель:</b> Освоить web-разработку и войти в профессию</li>
+                            <li><b>Глобальная цель:</b> Переехать в Канаду</li>
+                        </ul>
+                    </div>
+                    <div class="d-none d-lg-block col-lg-6">
+                        <img src="img/photos/my_photo.jpg" class="mx-auto d-block float-lg-right my-photo" alt="Евгений Белолипецкий" width="500">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="fat-hr">
+
+        <!-- Resent Posts -->
+        <div class="resent-posts py-3">
+            <div class="anchor" id="blog"></div>
+            <div class="container">
+                <h2 class="text-center">Последние посты</h2>
+                <hr>
+                <div class="row my-4">
+                    <div class="col">
+                        <div id="carouselExampleIndicators" class="carousel carousel-dark slide mt-100" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner pt-6">
+                                <div class="carousel-item active">
+                                    <div class="d-block w-75 mx-auto pb-5">
+                                        <h3 class="text-center">Заголовок поста</h3>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img src="img/placeholders/blog-photo.jpg" class="w-100" alt="Фото блога">
+                                            </div>
+                                            <div class="col-9">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quaerat temporibus mollitia hic animi, incidunt libero officia. Placeat, vero mollitia natus accusantium tenetur quidem dolorem excepturi veritatis assumenda unde vitae aliquid molestiae, consequatur blanditiis ab perferendis? Ipsum dolor doloribus error eius dolore hic quod perspiciatis beatae? Cumque placeat, inventore obcaecati, officiis voluptatibus, et cum facere debitis aliquam ipsa exercitationem blanditiis eos? Ex ipsum eos soluta architecto harum odit placeat praesentium magnam ducimus, minima quia fuga provident quasi eveniet excepturi hic? Nam corporis natus rem eaque sapiente quod porro nihil facilis eveniet reiciendis. Cumque maiores veritatis inventore reiciendis quam distinctio non.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-75 mx-auto pb-5">
+                                        <h3 class="text-center">Заголовок поста</h3>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img src="img/placeholders/blog-photo.jpg" class="w-100" alt="Фото блога">
+                                            </div>
+                                            <div class="col-9">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quaerat temporibus mollitia hic animi, incidunt libero officia. Placeat, vero mollitia natus accusantium tenetur quidem dolorem excepturi veritatis assumenda unde vitae aliquid molestiae, consequatur blanditiis ab perferendis? Ipsum dolor doloribus error eius dolore hic quod perspiciatis beatae? Cumque placeat, inventore obcaecati, officiis voluptatibus, et cum facere debitis aliquam ipsa exercitationem blanditiis eos? Ex ipsum eos soluta architecto harum odit placeat praesentium magnam ducimus, minima quia fuga provident quasi eveniet excepturi hic? Nam corporis natus rem eaque sapiente quod porro nihil facilis eveniet reiciendis. Cumque maiores veritatis inventore reiciendis quam distinctio non.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-75 mx-auto pb-5">
+                                        <h3 class="text-center">Заголовок поста</h3>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img src="img/placeholders/blog-photo.jpg" class="w-100" alt="Фото блога">
+                                            </div>
+                                            <div class="col-9">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quaerat temporibus mollitia hic animi, incidunt libero officia. Placeat, vero mollitia natus accusantium tenetur quidem dolorem excepturi veritatis assumenda unde vitae aliquid molestiae, consequatur blanditiis ab perferendis? Ipsum dolor doloribus error eius dolore hic quod perspiciatis beatae? Cumque placeat, inventore obcaecati, officiis voluptatibus, et cum facere debitis aliquam ipsa exercitationem blanditiis eos? Ex ipsum eos soluta architecto harum odit placeat praesentium magnam ducimus, minima quia fuga provident quasi eveniet excepturi hic? Nam corporis natus rem eaque sapiente quod porro nihil facilis eveniet reiciendis. Cumque maiores veritatis inventore reiciendis quam distinctio non.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-75 mx-auto pb-5">
+                                        <h3 class="text-center">Заголовок поста</h3>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img src="img/placeholders/blog-photo.jpg" class="w-100" alt="Фото блога">
+                                            </div>
+                                            <div class="col-9">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quaerat temporibus mollitia hic animi, incidunt libero officia. Placeat, vero mollitia natus accusantium tenetur quidem dolorem excepturi veritatis assumenda unde vitae aliquid molestiae, consequatur blanditiis ab perferendis? Ipsum dolor doloribus error eius dolore hic quod perspiciatis beatae? Cumque placeat, inventore obcaecati, officiis voluptatibus, et cum facere debitis aliquam ipsa exercitationem blanditiis eos? Ex ipsum eos soluta architecto harum odit placeat praesentium magnam ducimus, minima quia fuga provident quasi eveniet excepturi hic? Nam corporis natus rem eaque sapiente quod porro nihil facilis eveniet reiciendis. Cumque maiores veritatis inventore reiciendis quam distinctio non.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="fat-hr">
+
+        <!-- Portfolio -->
+        <div class="portfolio py-3">
+            <div class="anchor" id="portfolio"></div>
+            <div class="container">
+                <h2 class="text-center">Портфолио</h2>
+                <hr>
+                <div class="row my-4">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                          <div class="card">
+                            <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <a href="#" class="btn btn-outline-dark stretched-link">Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                              <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-outline-dark stretched-link">Go somewhere</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-outline-dark stretched-link">Go somewhere</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card">
+                              <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-outline-dark stretched-link">Go somewhere</a>
+                              </div>
+                            </div>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html>
